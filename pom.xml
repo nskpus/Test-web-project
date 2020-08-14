@@ -92,18 +92,18 @@
 
 	</dependencies>
 	
-	<!--<distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.113.232:8081/repository/mt-releases/</url>
+	      <url>http://13.233.137.219:2525/nskptech/repository/firstsample-repo1/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.113.232:8081/repository/mt-snapshots/</url>
+	      <url>http://13.233.137.219:2525/nskptech/repository/firstSample-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement> -->
+	</distributionManagement> 
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
