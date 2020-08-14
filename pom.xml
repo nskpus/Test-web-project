@@ -96,12 +96,14 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.137.219:2525/nskptech/repository/firstsample-repo1/</url>
+	      <!--<url>http://13.233.137.219:2525/nskptech/repository/firstsample-repo1/</url>-->
+	      <url>http://13.233.137.219:2525/nskptech/repository/Test-web-project-nexus-release/</url>    
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.137.219:2525/nskptech/repository/firstSample-snapshot/</url>
+	      <!--<url>http://13.233.137.219:2525/nskptech/repository/firstSample-snapshot/</url>-->
+	      <url>http://13.233.137.219:2525/nskptech/repository/Test-web-project-nexus-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement> 
 	<build>
