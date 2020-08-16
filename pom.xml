@@ -25,7 +25,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<!--<sonar.host.url>http://13.233.128.215:9000/</sonar.host.url> -->
                     
-                <sonar.host.url>http://13.126.9.89:9000/</sonar.host.url>
+                <sonar.host.url>http://13.126.207.175:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		
@@ -97,13 +97,13 @@
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <!--<url>http://13.233.137.219:2525/nskptech/repository/firstsample-repo1/</url>-->
-	      <url>http://13.233.137.219:2525/nskptech/repository/Test-web-project-nexus-release/</url>    
+	      <url>http://13.232.78.34:2525/nskptech/repository/Test-web-project-nexus-release/</url>    
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <!--<url>http://13.233.137.219:2525/nskptech/repository/firstSample-snapshot/</url>-->
-	      <url>http://13.233.137.219:2525/nskptech/repository/Test-web-project-nexus-snapshot/</url>
+	      <url>http://13.232.78.34:2525/nskptech/repository/Test-web-project-nexus-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement> 
 	<build>
